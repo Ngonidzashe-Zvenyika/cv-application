@@ -1,0 +1,18 @@
+:root {
+  font-size: 62.5%;
+}
+
+*,
+::before,
+::after {
+  font-family: monospace, Arial, sans-serif, system-ui, 'Segoe UI', Roboto,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-size: 1.6rem;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app-container * {
+  white-space: pre-wrap;
+}
