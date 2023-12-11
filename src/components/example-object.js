@@ -16,14 +16,14 @@ const educationOne = {
   begin: '2023-02-01',
   finish: 'Present',
   achievement:
-    "\n1. Competent with HTML, CSS and Javascript.\n2. In regards to tooling, I have completed several projects demonstrating an understanding of:\n • React \n • Webpack \n • Vite \n • Git \n • Linux \n • Visual Studio Code \n • Github \n • Node Package Manager \n • API's \n • JSON \n • Bash CLI \n3. In addition to this, I have studied object-oriented programming during high school (Python) and currently continue to sharpen my skills with Javascript as a web developer. \n4. As it pertains to coding best practices, I have a working knowledge of:\n • Responsive design \n • Accessibility guidlines \n • Test driven development using Jest \n • The five solid design principles \n6. Lastly, with regards to my knowledge of data structures and algorithms, I have completed several projects demonstrating an understanding of:\n • Linked-lists \n • Binary trees \n • Graphs \n • Stacks \n • Queues \n • Arrays \n7. I am currently delving deeper into React and progressing towards learning back-end development using Node.js.",
+    "\n1. Competent with HTML, CSS and Javascript.\n2. In regards to tooling, I have completed several projects demonstrating an understanding of:\n • React \n • Webpack \n • Vite \n • Git \n • Linux \n • Visual Studio Code \n • Github \n • Node Package Manager \n • API's \n • JSON \n • Bash CLI \n • Vercel (Project Deployment) \n3. In addition to this, I have studied object-oriented programming during high school (Python) and currently continue to sharpen my skills with Javascript as a web developer. \n4. As it pertains to coding best practices, I have a working knowledge of:\n • Responsive design \n • Accessibility guidlines \n • Test driven development \n • The five solid design principles \n5. Lastly, with regards to my knowledge of data structures and algorithms, I have completed several projects demonstrating an understanding of:\n • Binary trees \n • Graphs \n • Linked-lists  \n • Stacks \n • Queues \n • Arrays \n • Recursion \n • Divide and conquer algorithms (min-max) \n6. I am currently delving deeper into React and progressing towards learning back-end development using Node.js.",
   id: uuid(),
 };
 
 const educationTwo = {
   institution: 'Falcon College',
   course: 'Cambridge: A-Level Computer Science',
-  begin: '2020-01-01',
+  begin: '2021-01-01',
   finish: 'November 2022',
   achievement: 'A',
   id: uuid(),
@@ -32,7 +32,7 @@ const educationTwo = {
 const educationThree = {
   institution: 'Falcon College',
   course: 'Cambridge: A-Level Mathematics',
-  begin: '2020-01-01',
+  begin: '2021-01-01',
   finish: 'November 2022',
   achievement: 'B',
   id: uuid(),
@@ -41,7 +41,7 @@ const educationThree = {
 const educationFour = {
   institution: 'Falcon College',
   course: 'Cambridge: A-Level Physics',
-  begin: '2020-01-01',
+  begin: '2021-01-01',
   finish: 'November 2022',
   achievement: 'B',
   id: uuid(),
@@ -50,7 +50,7 @@ const educationFour = {
 const educationFive = {
   institution: 'Falcon College',
   course: 'Cambridge: AS-Level English',
-  begin: '2020-01-01',
+  begin: '2021-01-01',
   finish: 'November 2021',
   achievement: 'A',
   id: uuid(),
@@ -62,7 +62,7 @@ const experienceOne = {
   start: '2023-10-01',
   end: 'October 2023',
   description:
-    "\nIn October this year, I contributed code to 'The Odin Project', the open source web-development curriculum that I am currently completing. Having acquired the necessary skills to submit an issue on github, I volunteered to clarify the instructions of one of the course's modules. After being assigned to solve the problem I forked the necessary github repository, made my changes, and finally submitted a pull request. To my delight, my changes were accepted and this represented a full circle moment in my learning due to the fact that my work was finally useful to someone other than myself.",
+    "\nIn October this year, I contributed code to The Odin Project, the open source web development curriculum that I am currently completing. Having acquired the necessary skills to submit an issue on Github, I volunteered to clarify the instructions of one of the course's modules. After being assigned to solve the problem I forked the necessary Github repository, made my changes, and finally submitted a pull request. To my delight, my changes were accepted and this represented a full circle moment in my learning because my work was finally useful to someone other than myself.",
   id: uuid(),
 };
 
