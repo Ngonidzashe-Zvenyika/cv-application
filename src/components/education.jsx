@@ -7,7 +7,7 @@ function FormInputs({ field, setField }) {
   return (
     <>
       <div>
-        <label htmlFor="institution">Institution:</label>
+        <label htmlFor="institution">Institution</label>
         <CustomInput
           id="institution"
           type="text"
@@ -17,7 +17,7 @@ function FormInputs({ field, setField }) {
         ></CustomInput>
       </div>
       <div>
-        <label htmlFor="course">Course:</label>
+        <label htmlFor="course">Course</label>
         <CustomInput
           id="course"
           type="text"
@@ -27,7 +27,7 @@ function FormInputs({ field, setField }) {
         ></CustomInput>
       </div>
       <div>
-        <label htmlFor="begin">Start Date:</label>
+        <label htmlFor="begin">Start Date</label>
         <CustomInput
           id="begin"
           type="date"
@@ -37,7 +37,7 @@ function FormInputs({ field, setField }) {
         ></CustomInput>
       </div>
       <div>
-        <label htmlFor="finish">End Date:</label>
+        <label htmlFor="finish">End Date</label>
         <CustomInput
           id="finish"
           type="text"
@@ -47,7 +47,7 @@ function FormInputs({ field, setField }) {
         ></CustomInput>
       </div>
       <div>
-        <label htmlFor="Achievement">Achievement:</label>
+        <label htmlFor="Achievement">Achievement</label>
         <CustomInput
           id="achievement"
           type="textarea"
@@ -189,23 +189,23 @@ function DisplayEducation({
             return (
               <div className="details" key={educationItem.id}>
                 <div>
-                  <h3>Institution:</h3>
+                  <h3>Institution</h3>
                   <p>{educationItem.institution}</p>
                 </div>
                 <div>
-                  <h3>Course:</h3>
+                  <h3>Course</h3>
                   <p>{educationItem.course}</p>
                 </div>
                 <div>
-                  <h3>Start Date:</h3>
+                  <h3>Start Date</h3>
                   <p>{educationItem.begin}</p>
                 </div>
                 <div>
-                  <h3>End Date:</h3>
+                  <h3>End Date</h3>
                   <p>{educationItem.finish}</p>
                 </div>
                 <div>
-                  <h3>Achievement:</h3>
+                  <h3>Achievement</h3>
                   <p>{educationItem.achievement}</p>
                 </div>
                 {!example && (

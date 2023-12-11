@@ -7,7 +7,7 @@ function FormInputs({ field, setField }) {
   return (
     <>
       <div>
-        <label htmlFor="company">Company</label>
+        <label htmlFor="company">Organisation</label>
         <CustomInput
           id="company"
           type="text"
@@ -202,23 +202,23 @@ function DisplayExperience({
             return (
               <div className="details" key={experienceItem.id}>
                 <div>
-                  <h3>Company:</h3>
+                  <h3>Organisation</h3>
                   <p>{experienceItem.company}</p>
                 </div>
                 <div>
-                  <h3>Position:</h3>
+                  <h3>Position</h3>
                   <p>{experienceItem.position}</p>
                 </div>
                 <div>
-                  <h3>Start Date:</h3>
+                  <h3>Start Date</h3>
                   <p>{experienceItem.start}</p>
                 </div>
                 <div>
-                  <h3>End Date:</h3>
+                  <h3>End Date</h3>
                   <p>{experienceItem.end}</p>
                 </div>
                 <div>
-                  <h3>Description:</h3>
+                  <h3>Description</h3>
                   <p>{experienceItem.description}</p>
                 </div>
                 {!example && (
