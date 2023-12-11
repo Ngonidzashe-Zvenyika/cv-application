@@ -2,6 +2,8 @@
 
 `Project No: 20`
 
+## <a ref="noreferrer" target="_blank" href="https://ngonidzashezvenyika-cv-application.vercel.app/">Live Preview</a>
+
 ## Purpose
 
 1. Develop a website using `React`
