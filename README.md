@@ -2,7 +2,7 @@
 
 `Project No: 20`
 
-## <a ref="noreferrer" target="_blank" href="https://ngonidzashezvenyika-cv-application.vercel.app/">Live Preview</a>
+## <a rel="noreferrer" target="_blank" href="https://ngonidzashezvenyika-cv-application.vercel.app/">Live Preview</a>
 
 ## Purpose
 
@@ -22,6 +22,6 @@
 
 #### Sources:
 
-- Fonts from <a ref="noreferrer" target="_blank" href="https://fonts.google.com/">Google Fonts</a>
+- Fonts from <a rel="noreferrer" target="_blank" href="https://fonts.google.com/">Google Fonts</a>
 
-- Icons by <a ref="noreferrer" target="_blank" href="https://icons8.com">Icons8</a>
+- Icons by <a rel="noreferrer" target="_blank" href="https://icons8.com">Icons8</a>
