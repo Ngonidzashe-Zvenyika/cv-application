@@ -1,3 +1,8 @@
+@font-face {
+  font-family: mono;
+  src: url(/SpaceMono-Regular.ttf) format('truetype');
+}
+
 :root {
   font-size: 62.5%;
   --color-one: black;
@@ -10,7 +15,7 @@
 *,
 ::before,
 ::after {
-  font-family: monospace, Arial, sans-serif, system-ui, 'Segoe UI', Roboto,
+  font-family: mono, monospace, Arial, sans-serif, system-ui, 'Segoe UI', Roboto,
     'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   font-size: 1.6rem;
   padding: 0;
