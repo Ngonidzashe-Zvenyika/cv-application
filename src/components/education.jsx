@@ -83,7 +83,10 @@ function AddEducation({ educationArray, setEducationArray, setAddEducation }) {
   };
 
   const submitNewEducation = (e) => {
-    const inputs = [...document.querySelectorAll('form.education input')];
+    const inputs = [
+      ...document.querySelectorAll('form.education input'),
+      document.querySelector('form.education textarea'),
+    ];
     const filled = inputs.every(
       (input) => input.value !== '' && input.validity.valid,
     );
@@ -157,7 +160,10 @@ function DisplayEducation({
   };
 
   const submitEdit = (e) => {
-    const inputs = [...document.querySelectorAll('form.education input')];
+    const inputs = [
+      ...document.querySelectorAll('form.education input'),
+      document.querySelector('form.education textarea'),
+    ];
     const formFilledCorrectly = inputs.every(
       (input) => input.value !== '' && input.validity.valid,
     );
