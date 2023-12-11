@@ -1,5 +1,10 @@
 :root {
   font-size: 62.5%;
+  --color-one: black;
+  --color-two: white;
+  --color-three: darkslategray;
+  --color-four: green;
+  --color-five: royalblue;
 }
 
 *,

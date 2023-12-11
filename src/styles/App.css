@@ -37,7 +37,7 @@ section {
 h2 {
   font-size: 2.4rem;
   padding: 5px 0px;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid var(--color-one);
 }
 
 .details,
@@ -49,7 +49,7 @@ form {
 }
 
 .input-side .details {
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid var(--color-one);
 }
 
 .input-side .details:not(:first-of-type) {
@@ -64,7 +64,7 @@ form {
 form > div,
 .details > div {
   position: relative;
-  border: 1px solid darkslategray;
+  border: 1px solid var(--color-one);
 }
 
 .details > div {
@@ -97,7 +97,7 @@ h3 {
   left: 10px;
   font-weight: 600;
   padding: 0px 5px;
-  background-color: white;
+  background-color: var(--color-two);
 }
 
 p {
@@ -120,7 +120,7 @@ form > button,
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid var(--color-one);
 }
 
 .tab h2 {
@@ -144,7 +144,7 @@ img {
   height: 30px;
   padding: 5px;
   border: none;
-  background-color: white;
+  background-color: var(--color-two);
 }
 
 .image-and-text-button {
@@ -156,22 +156,22 @@ img {
   padding: 5px 10px;
 }
 
-.blue-button {
-  background-color: white;
-  color: royalblue;
-  border: 1px solid royalblue;
+.gray-button {
+  background-color: var(--color-two);
+  color: var(--color-three);
+  border: 1px solid var(--color-three);
 }
 
 .green-button {
-  background-color: white;
-  color: green;
-  border: 1px solid green;
+  background-color: var(--color-two);
+  color: var(--color-four);
+  border: 1px solid var(--color-four);
 }
 
-.gray-button {
-  background-color: white;
-  color: darkslategray;
-  border: 1px solid darkslategrey;
+.blue-button {
+  background-color: var(--color-two);
+  color: var(--color-five);
+  border: 1px solid var(--color-five);
 }
 
 button:hover {
@@ -203,7 +203,7 @@ button:hover {
   align-content: start;
   gap: 20px;
   padding: 20px;
-  border: 5px solid black;
+  border: 5px solid var(--color-one);
 }
 
 .name {
