@@ -3,8 +3,8 @@ import { v4 as uuid } from 'uuid';
 const contactObject = {
   name: 'Ngonidzashe Zvenyika',
   email: 'nfzvenyika@gmail.com',
-  number: '+263778844106',
-  address: '952 Hungardown Rd, Glen Lorne, Harare, Zimbabwe',
+  number: '+27791390693',
+  address: 'Helshoogte Residence, Stellenbosch University',
   website: 'https://ngonidzashe-zvenyika.github.io/homepage/',
   github: 'https://github.com/Ngonidzashe-Zvenyika',
   linkedin: 'https://www.linkedin.com/in/ngonidzashe-zvenyika-b7a4a6217/',
