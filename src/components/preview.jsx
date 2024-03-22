@@ -39,7 +39,7 @@ export default function Preview({ previewObject }) {
               <div className="contact-item">
                 <img src="/github.png" alt="" />
                 <a rel="noreferrer" target="_blank" href={contactObject.github}>
-                  Github
+                  GitHub
                 </a>
               </div>
               <div className="contact-item">
