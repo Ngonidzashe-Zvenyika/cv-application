@@ -71,7 +71,7 @@ const experienceOne = {
   start: '2023-10-01',
   end: 'Present',
   description:
-    '\nIn October of 2023 I began contributing code to The Odin Project, an open-source web development curriculum. Having acquired the necessary skills to submit an issue on GitHub, I volunteered to clarify the instructions of a course module. After being assigned to solve the problem, I forked the necessary GitHub repository, made my changes and finally submitted a pull request. My contribution was accepted and this experience inspired me to continue developing my skills in order to produce work that is useful to other people.',
+    '\nIn October of 2023, I began contributing code to The Odin Project, an open-source web development curriculum. Having acquired the necessary skills to submit an issue on GitHub, I volunteered to clarify the instructions for a course module. After being assigned to solve the problem, I forked the necessary GitHub repository, made my changes, and finally submitted a pull request. My contribution was accepted and this experience inspired me to continue developing my skills in order to produce work that is useful to other people.',
   id: uuid(),
 };
 
@@ -81,7 +81,7 @@ const experienceTwo = {
   start: '2020-07-05',
   end: 'November 2022',
   description:
-    '\nTo attain this award, students must commit to learning a skill, participating in a physical activity, and volunteering for fifty-two weeks, one of these must be declared as a major and conducted for seventy-eight weeks. In addition to this, students must also conduct an adventurous journey and work voluntarily in an unfamiliar place for at least one week. I learnt graphic designing in AutoCAD, took up jogging, and tutored students from various high schools to fulfil my activity requirements. Furthermore, I was part of a group that explored the Okavango Delta in Botswana and I also volunteered my services at a drug rehabilitation centre.',
+    '\nTo attain this award, students must commit to learning a skill, participating in a physical activity, and volunteering for fifty-two weeks, one of these must be declared as a major and conducted for seventy-eight weeks. In addition to this, students must also conduct an adventurous journey and work voluntarily in an unfamiliar place for at least one week. I learnt graphic designing in AutoCAD, took up jogging, and tutored students from various high schools to fulfil my activity requirements. Furthermore, I was part of a group that explored the Okavango Delta in Botswana, and concerning the work requirement, I volunteered my services at a drug rehabilitation centre.',
   id: uuid(),
 };
 
@@ -91,7 +91,7 @@ const experienceThree = {
   start: '2021-11-01',
   end: 'November 2022',
   description:
-    '\nI was the Headboy of Falcon College (Zimbabwe) in 2022. This position required me to be an example to those who looked up to me. Some of my achievements were, attaining Acadademic Honors for my performance in the Cambridge examinations, Cultural Honors for my participation and leadership in several school societies chiefly Debate and Toastmasters, and placing second-best aggregate in total points accumulated during my participation in our annual school athletics competition.',
+    '\nI was the Headboy of Falcon College (Zimbabwe) in 2022. This position required me to be an example to those who looked up to me. Some of my achievements were, attaining Academic Honors for my performance in the Cambridge examinations, Cultural Honors for my participation and leadership in several school societies chiefly Debate and Toastmasters, and placing second-best aggregate in total points accumulated during my participation in our annual school athletics competition.',
   id: uuid(),
 };
 
